@@ -41,7 +41,7 @@ public class SmsTrafficClient
 	private final String password;
 
 	// automatically split each messaage in max_parts number of parts
-	private int max_parts=1;
+	private int max_parts=10;
 
 	// use failover if main server is not responding properly
 	private boolean bUseAlternativeServer=true;
